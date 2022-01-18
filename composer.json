@@ -1,0 +1,30 @@
+{
+    "name": "jazor/x509",
+    "type": "library",
+    "description": "x509 for php",
+    "keywords": ["x509","jazor"],
+    "homepage": "https://github.com/cook-code-jazor/x509",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "anlige",
+            "email": "zhanghuiguoanlige@126.com",
+            "homepage": "https://github.com/cook-code-jazor/x509"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "jazor/core" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jazor\\X509\\": "./src/X509/",
+            "Jazor\\ASN1\\": "./src/ASN1/",
+            "Jazor\\Math\\": "./src/Math/",
+            "Jazor\\OCSP\\": "./src/OCSP/",
+            "Jazor\\Security\\": "./src/Security/",
+            "Jazor\\TLS\\": "./src/TLS/"
+        }
+    },
+    "minimum-stability": "dev"
+}
