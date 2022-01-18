@@ -24,7 +24,10 @@
             "Jazor\\OCSP\\": "./src/OCSP/",
             "Jazor\\Security\\": "./src/Security/",
             "Jazor\\TLS\\": "./src/TLS/"
-        }
+        },
+	    "files": [
+	      "./src/helper.php"
+	    ]
     },
     "minimum-stability": "dev"
 }
