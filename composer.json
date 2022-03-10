@@ -14,6 +14,7 @@
     ],
     "require": {
         "php": ">=7.4",
+        "jazor/httpclient" : "dev-master",
         "jazor/core" : "dev-master"
     },
     "autoload": {
